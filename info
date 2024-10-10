@@ -1,0 +1,149 @@
+DYNAMIC TRAFFIC MANAGEMENT SYSTEM FOR SMART CITIES USING VEHICULAR NETWORKS                                                                                                         
+
+By: Alaykumar Pandya -1317970,
+New York Institute of Technology, Manhattan
+Course: Computer Networks- EENG 755, 
+Term: Spring 2024
+Instructor: Cecilia Dong
+Date: 2/15/2024
+
+
+
+
+
+Table of Contents
+Introduction
+Objectives
+Proposed Plan of Action 3.1 System Design 3.2 Implementation 3.3 Testing and Evaluation
+Technical Requirements
+Resource Requirements 5.1 Software and Tools 5.2 Hardware
+Timeline and Milestones
+Task Assignments
+Conclusion
+References
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Introduction
+Urban traffic congestion continues to pose a significant challenge, increasing travel times, fuel consumption, and emissions. Smart cities initiatives focus on leveraging technology to improve transportation efficiency and address these issues. Vehicular networks (VNets) offer a promising approach by enabling vehicles to communicate with each other and infrastructure, providing real-time traffic information and facilitating cooperative decision-making. [2]
+This project proposes developing a Dynamic Traffic Management System (DTMS) for Smart Cities using Vehicular Networks[1]. This system will utilize real-time data from connected vehicles to optimize traffic flow, reduce congestion, and improve overall transportation efficiency. This project is feasible for a team of two within a semester timeframe by focusing on a specific aspect of the overall system.
+2. Objectives
+The primary objectives of this project are:
+Design and implement a basic prototype of a DTMS leveraging V2X communication.
+Develop algorithms for real-time traffic data collection and analysis.
+Explore and implement a chosen traffic management strategy, such as dynamic traffic signal control or route optimization.
+Evaluate the effectiveness of the proposed system through simulation and analysis.
+
+
+3. Proposed Plan of Action
+3.1 System Design
+Research and analyze existing VTMS and VNet solutions.
+Select a specific focus area for the prototype (e.g., intersection management, route suggestion).
+Design the system architecture, including communication protocols, data processing, and control mechanisms.
+Develop detailed algorithms for chosen traffic management strategy.
+3.2 Implementation
+Choose suitable simulation tools and libraries (e.g., NS-3, SUMO).
+Implement V2X communication protocols for data exchange between vehicles and infrastructure.
+Develop software modules for data collection, analysis, and chosen traffic management strategy.
+Integrate all modules and test functionality individually.
+
+
+
+3.3 Testing and Evaluation
+Run simulations with various traffic scenarios and analyze system performance metrics (e.g., travel time, congestion level).
+Compare the DTMS performance with baseline scenarios without VNet-based control.
+Refine algorithms and system parameters based on test results.
+4. Technical Requirements
+Programming skills in Python, Linux Kali.
+Familiarity with network simulation tools (NS-3, SUMO).
+Basic understanding of machine learning or optimization algorithms.
+5. Resource Requirements
+5.1 Software and Tools
+Network simulation tools: NS-3, SUMO
+Traffic simulation tools (if needed): PTV Vissim, AIMSUN
+Programming languages: Python, C++
+Machine learning libraries (if needed): TensorFlow, PyTorch
+Data visualization libraries: Matplotlib, Seaborn
+
+
+5.2 Hardware Used
+Alay: Alienware M18, AMD Ryzen 9, RAM 32 GB, Windows 11 pro and Kali linux(hyper-V) 
+6. Timeline and Milestones
+
+Week 1-2:
+ Literature review, system design, and tool selection, proposal writing.
+Week 3-4:
+V2X protocol implementation and data collection module development.
+Week 5-7
+Traffic management strategy algorithm development and integration
+Week 8-9
+Simulation development and initial testing
+Week 10-11
+Performance evaluation and results analysis
+Week 12-13
+Report writing and project presentation.
+
+
+
+Milestones:
+Functional V2X communication prototype by Week 4.
+Implemented traffic management strategy by Week 8.
+Preliminary simulation results by Week 10.
+Final report and presentation by Week 13.
+7. Task Assignments
+Alay:
+Lead system design and architecture.
+Develop V2X communication protocol implementation.
+Implement data collection and analysis modules.
+Lead simulation development and analysis.
+Salomi:
+Research traffic management strategies and choose desired approach.
+Develop algorithms for chosen traffic management strategy.
+Integrate traffic management module and test functionality.
+Contribute to simulation development and analysis.
+Prepare project presentation materials.
+
+
+8. Conclusion
+This project proposes a feasible and impactful implementation of a Dynamic Traffic Management System (DTMS) for Smart Cities leveraging the power of Vehicular Networks (VNet). By focusing on Dynamic Traffic Signal Control, we aim to develop and evaluate an algorithm that dynamically adjusts traffic signal timings based on real-time vehicle data from V2X communication, aiming to reduce congestion and improve travel time at intersections and ultimately contribute to improved urban traffic flow, reduced emissions, and a more efficient transportation system. Through the development and evaluation of a functional prototype, we will explore the potential of VNet technology for smart city initiatives, paving the way for a safer, more sustainable future.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9. Reference
+
+1. Mateen, A., Sher, S., Rehman, A., Hanif, Z., Bajwa, T., and Ashraf, M. (2018). Dynamic Traffic Control and Management System for Smart Cities. Advances in Science and Technology Research Journal, 12(4), pp.216-225. https://doi.org/10.12913/22998624/100387
+
+2. Elias C. Eze,  Si-Jing Zhang,  En-Jie Liu and  Joy C. Eze. Advances in Vehicular Ad-hoc Networks (VANETs): Challenges and Road-map for Future Development. International Journal of Automation and Computing, vol. 13, no. 1, pp. 1-18, 2016. DOI:  10.1007/s11633-015-0913-y
+
+3. Chang I-C, Tai H-T, Yeh F-H, Hsieh D-L, Chang S-H. A VANET-Based A* Route Planning Algorithm for Travelling Time- and Energy-Efficient GPS Navigation App. International Journal of Distributed Sensor Networks. 2013;9(7). doi:10.1155/2013/794521
+
+
+4. "Vehicular Ad Hoc Networks (VANETs) for Smart City Traffic Management." Smart City Research Center, University of California, Los Angeles, 2020, 
+
+5. Chen, Yanyan, et al. "A Survey of Dynamic Traffic Management Systems in Smart Cities." Journal of Intelligent Transportation Systems, vol. 24, no. 3, 2020, pp. 220-238.
+
+6. "Dynamic Traffic Management Systems." Intelligent Transportation Society of America, 2021.
+
+
